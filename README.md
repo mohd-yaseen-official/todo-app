@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# 📝 React ToDo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple yet powerful **ToDo List** single-page application (SPA) built using **React** for the frontend and **Django** as the backend REST API (available in a separate repository).
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- ✅ Mark tasks as complete
+- 🔄 Undo completed tasks
+- 🗑️ Delete tasks (pending or completed)
+- ✍️ Add new tasks via input form
+- 🧾 Clear task separation (Pending / Completed)
+- 🧩 Integration with a Django backend API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React (Create React App)
+- **Backend**: Django REST API (available in [another repo](https://github.com/mohd-yaseen-official/todo-api.git))
+- **State Management**: useState/useEffect or context
+- **HTTP Requests**: fetch or Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📦 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Clone the repo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/mohd-yaseen-official/todo-app.git
+cd todo-app
+```
+### 2. Install dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+npm install
+```
 
-### `npm run eject`
+### 3. Run the app
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm start
+```
+Visit [http://127.0.0.1:3000](http://127.0.0.1:3000) to view the app.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Note: The app uses a local backend API. Make sure the Django server is running on your machine and CORS is properly configured.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔗 Backend Repository
+👉 The Django backend for this app is available here:
+🔗 [ToDo App Backend](https://github.com/mohd-yaseen-official/todo-api.git)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🤝 Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✨ Credits
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Developed with 💙 by [Mohamed Yaseen](https://github.com/mohd-yaseen-official)
